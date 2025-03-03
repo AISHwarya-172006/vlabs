@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiments - Virtual Labs</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e1e1ea;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        header {
+            background-color: #abd5d8;
+            color: white;
+            padding: 20px;
+            width: 100%;
+        }
+        .em{ 
+            color: #2c676a;
+            padding: 10px;
+            border-radius: 0px;
+            margin: 20px 0;
+            font-weight: bold;
+
+        }
+        .logo {
+            position: absolute;
+      top: 0px;   /* distance from top */
+      left: 20px;  /* distance from left */
+      width: 150px; /* Adjust size of the logo */
+        }
+        .breadcrumb {
+            background-color: #67859e;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            font-size: 14px;
+            width: 100%;
+            text-align: left;
+            display: flex;
+            align-items: center;
+        }
+        .breadcrumb a {
+            text-decoration: none;
+            color: #e4f2f3;
+            margin: 0 5px;
+        }
+        .breadcrumb a::after {
+            content: '>';
+            margin-left: 5px;
+        }
+        .breadcrumb a:last-of-type::after {
+            content: '';
+        }
+        main {
+            padding: 20px;
+            width: 100%;
+        }
+        .experiment {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 10px 0;
+            background-color: #fff;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 0px;
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="VT.PNG" alt="Virtual Labs Logo" class="logo">
+    <div class="em"><h1>Experiments</h1></div>
+</header>
+
+<div class="breadcrumb">
+    <a href="ind.html">Home</a>
+    
+    <a href="exp.html"> Embedded c++ Experiments</a>
+</div>
+
+<main>
+    <h2>List of Experiments</h2>
+
+    <div class="experiment">
+        <h3><a href="exp1.html">Experiment 1: ON/OFF control of LED using GPIO pins of Microcontroller.</a></h3>
+    </div>
+
+    <div class="experiment">
+        <h3><a href="exp2.html">Experiment 2: Interfacing the seven - segment display with Microcontroller</a></h3>
+    </div>
+    <div class="experiment">
+        <h3><a href="exp3.html">Experiment 3: Design and Interface an LCD module with Microcontroller</a></h3>
+    </div>
+
+    <div class="experiment">
+        <h3><a href="exp4.html">Experiment 4: Read data from a temperature sensor using microcontroller.</a></h3>
+    </div>
+    <div class="experiment">
+        <h3><a href="exp5.html">Experiment 5:Interface and monitor a gas sensor with microcontroller.</a></h3>
+    </div>
+
+    <div class="experiment">
+        <h3><a href="exp6.html">Experiment 6: Connect an Analog-to-Digital Converter with a microcontroller for analog signal processing.</a></h3>
+    </div>
+    <div class="experiment">
+        <h3><a href="exp7.html">Experiment 7: Establish UART communication by interfacing a microcontroller for serial data transfer.</a></h3>
+    </div>
+    <div class="experiment">
+        <h3><a href="exp8.html">Experiment 8: Establish a communication with Bluetooth module using a microcontroller.</a></h3>
+    </div>
+</main>
+
+
+
+</body>
+</html>
